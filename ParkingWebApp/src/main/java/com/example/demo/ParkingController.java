@@ -24,7 +24,7 @@ public class ParkingController {
 		System.out.println("This is the Dashboard");
 		return "DashBoard";
 	}
-	
+
 	@RequestMapping("/registrationdetails")
 	public String registrationdetails() {
 		System.out.println("This is the Registration Details.");
