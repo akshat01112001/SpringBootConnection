@@ -11,7 +11,7 @@
 
          <servlet-mapping>
              <servlet-name>RegistrationForm</servlet-name>
-            <url-pattern>com.example.demo.saveDetails</url-pattern>
+            <url-pattern>/saveDetails</url-pattern>
          </servlet-mapping>
          
 </web-app>
