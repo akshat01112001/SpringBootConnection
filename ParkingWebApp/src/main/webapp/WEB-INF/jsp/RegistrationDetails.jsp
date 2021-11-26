@@ -20,23 +20,23 @@
         </legend>
         <form action="saveDetails" method="post">
           <div class="mb-3">
-            <label for="InputFirstName" class="form-label">First Name</label>
+            <label for="FirstName" class="form-label">First Name</label>
             <input required type="text" class="form-control" id="FirstName" name="FirstName"/>
           </div>
           <div class="mb-3">
-            <label for="InputLastName" class="form-label">Last Name</label>
+            <label for="LastName" class="form-label">Last Name</label>
             <input required type="text" class="form-control" id="LastName" name="LastName"/>
           </div>
           <div class="mb-3">
-            <label for="InputUsername" class="form-label">Username</label>
+            <label for="Username" class="form-label">Username</label>
             <input required type="text" class="form-control" id="UserName" name="Username"/>
           </div>
           <div class="mb-3">
-            <label for="InputPassword" class="form-label">Password</label>
+            <label for="Password" class="form-label">Password</label>
             <input required type="password" class="form-control" id="Password">
           </div>
           <div class="mb-3">
-            <label for="InputPassword" class="form-label">Confirm Password</label>
+            <label for="ConfirmedPassword" class="form-label">Confirm Password</label>
             <input required type="password" class="form-control" id="ConfirmedPassword">
           </div>
           <label>Gender</label>
