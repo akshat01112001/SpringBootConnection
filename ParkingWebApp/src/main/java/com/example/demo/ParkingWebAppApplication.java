@@ -10,15 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan
 @SpringBootApplication
 public class ParkingWebAppApplication {
-	
-	
-
-
 	public static void main(String[] args){
-		
-
-		
 		SpringApplication.run(ParkingWebAppApplication.class, args);
 	}
-
 }
