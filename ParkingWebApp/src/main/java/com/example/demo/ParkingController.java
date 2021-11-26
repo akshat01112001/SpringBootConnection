@@ -9,11 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Service
 @Controller
 public class ParkingController {
-	
-	
 	@Autowired
 	//RegistrationDetailsRepo repo;
-	
 	
 	@RequestMapping("/login")
 	public String login() {
