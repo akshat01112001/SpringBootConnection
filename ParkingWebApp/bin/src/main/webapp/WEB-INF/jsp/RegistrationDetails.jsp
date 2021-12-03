@@ -6,12 +6,15 @@
 
 <html lang="en">
 <head>
+  <%=
   <link rel="stylesheet" href="layout.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device,initial-scale=1.0">
   <title>Registration Details</title>
+  %>
 </head>
 <body>
+  <%=
   <div class="heading">
     <table class="wrap">
       <fieldset>
@@ -74,6 +77,7 @@
       </fieldset>
     </table>
   </div>
+  %>
 </body>
 
 </html>
