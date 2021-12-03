@@ -5,20 +5,22 @@
     "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
- <link rel="stylesheet" href="layout.css">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device,initial-scale=1.0">
-        <title>Login</title>
+	<%=<link rel="stylesheet" href="layout.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device,initial-scale=1.0">
+	<title>Login</title>
         <meta name="google-signin-client_id" content="261880181840-jjb40a9h39c4d9im6qa8258v243jucev.apps.googleusercontent.com">
         <script src="https://apis.google.com/js/platform.js" async defer></script>
         <div id="fb-root"></div>
         <script async defer crossorigin="anonymous"
             src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v12.0&appId=256317326529122&autoLogAppEvents=1"
             nonce="Qfw8z5xs"></script>
+            %>
+            
 </head>
 <body>
 
-<div class="heading">
+<%=<div class="heading">
             <table class="wrap">
                 <fieldset>
                     <legend>
@@ -53,6 +55,6 @@
                 </fieldset>
             </table>
         </div>
-
+        %>
 </body>
 </html>
